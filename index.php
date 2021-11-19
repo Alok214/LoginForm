@@ -50,9 +50,9 @@ if(isset($_GET['sub'])){
 $res = mysqli_query($conn, $insertquery);
 if($res){
     ?>
-    <script>
+    <!-- <script>
         alert("Data Entered Successfully.");
-    </script>
+    </script> -->
     <?php
 }
 else{
