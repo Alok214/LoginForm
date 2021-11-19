@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.fomcon{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+   
+}
+input{
+    height: 3rem;
+    border:1px solid rgba(0, 0, 0, 0.507);
+    color: black;
+    padding: 0.2rem;
+}
+h1,.p{
+    text-align: center;
+}
+.sub{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+}
+input:hover{
+    background-color: cyan;
+}
+.sub:hover{
+background-color: green;
+color: white;
+}
+.fomcon{
+    background-color:red;
+box-shadow: 10px 10px 80px 20px black;
+}
+body{
+    background:rgb(231, 62, 231);
+    
+}
+@media (max-width:498px){
+    .fomcon{
+        width: 95vw;
+    }
+}
