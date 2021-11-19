@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="con">
-        <form action="form.php" method="get">
+        <form action="index.php" method="get">
             <div class="fomcon">
                 <h1>Register</h1>
                 <p class="p">Fill up the form with correct values</p>
